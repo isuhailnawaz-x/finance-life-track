@@ -8,7 +8,7 @@ import {
   CreditCard,
   DollarSign,
   Settings,
-  FileChart2,
+  FileChartLine,
   LucideIcon,
   Home
 } from "lucide-react";
@@ -75,7 +75,7 @@ export function AppSidebar() {
           <SidebarGroupContent>
             <SidebarMenu>
               <NavItem icon={BarChart} label="Spending Analysis" to="/reports/spending" />
-              <NavItem icon={FileChart2} label="Monthly Report" to="/reports/monthly" />
+              <NavItem icon={FileChartLine} label="Monthly Report" to="/reports/monthly" />
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>

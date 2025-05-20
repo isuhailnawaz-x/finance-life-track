@@ -185,11 +185,6 @@ const Budget = () => {
                       category.status === 'warning' ? 'bg-amber-200' : 
                       'bg-gray-200'
                     }`}
-                    indicatorClassName={
-                      category.status === 'exceeded' ? 'bg-red-600' : 
-                      category.status === 'warning' ? 'bg-amber-500' : 
-                      'bg-finance-primary'
-                    }
                   />
                 </div>
                 
