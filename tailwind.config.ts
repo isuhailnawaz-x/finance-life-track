@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				finance: {
+					primary: '#3b82f6',     // Blue
+					secondary: '#10b981',   // Green
+					accent: '#8b5cf6',      // Purple
+					danger: '#ef4444',      // Red
+					warning: '#f59e0b',     // Amber
+					info: '#3b82f6',        // Blue
+					success: '#10b981',     // Green
+					background: '#f9fafb',  // Light gray
+					card: '#ffffff',        // White
 				}
 			},
 			borderRadius: {
@@ -84,11 +96,23 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					from: {
+						opacity: '0'
+					},
+					to: {
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out'
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
 			}
 		}
 	},
